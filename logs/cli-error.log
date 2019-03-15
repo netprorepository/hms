@@ -1,0 +1,60 @@
+2018-10-25 13:16:49 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hms.bed' doesn't exist in C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'bed', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('bed', Array)
+#2 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('bed')
+#3 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'bed', 'Bed')
+#7 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Bed')
+#8 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\BakeShell.php(272): Bake\Shell\Task\ModelTask->main('Bed')
+#9 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Bed', 0)
+#10 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\BakeShell.php(273): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Console\Shell.php(518): Bake\Shell\BakeShell->all('bed')
+#12 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 C:\xampp\htdocs\hms\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2018-10-25 13:18:11 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hms.frontdesk' doesn't exist in C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'frontdesk', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('frontdesk', Array)
+#2 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('frontdesk')
+#3 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'frontdesk', 'Frontdesk')
+#7 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Frontdesk')
+#8 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\BakeShell.php(272): Bake\Shell\Task\ModelTask->main('Frontdesk')
+#9 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Frontdesk', 0)
+#10 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\BakeShell.php(273): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Console\Shell.php(518): Bake\Shell\BakeShell->all('frontdesk')
+#12 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 C:\xampp\htdocs\hms\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+2019-01-11 09:42:50 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'hms.consultations' doesn't exist in C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 131
+Stack Trace:
+#0 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(97): Cake\Database\Schema\Collection->_reflect('Column', 'consultations', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(63): Cake\Database\Schema\Collection->describe('consultations', Array)
+#2 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\ORM\Table.php(548): Cake\Database\Schema\CachedCollection->describe('consultations')
+#3 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\ORM\Table.php(673): Cake\ORM\Table->getSchema()
+#4 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(220): Cake\ORM\Table->getPrimaryKey()
+#5 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(130): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(113): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'consultations', 'Consultations')
+#7 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(100): Bake\Shell\Task\ModelTask->bake('Consultations')
+#8 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\BakeShell.php(272): Bake\Shell\Task\ModelTask->main('Consultations')
+#9 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Consultations', 0)
+#10 C:\xampp\htdocs\hms\vendor\cakephp\bake\src\Shell\BakeShell.php(273): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Console\Shell.php(518): Bake\Shell\BakeShell->all('consultations')
+#12 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\xampp\htdocs\hms\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 C:\xampp\htdocs\hms\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
